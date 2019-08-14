@@ -29,11 +29,7 @@ pipeline {
         }*/
         stage('Deliver') { 
             steps {
-                /*
-                sh './jenkins/scripts/deliver.sh' 
-                */
-                
-                sh './deliver.sh	'
+                sh './jenkins/scripts/deliver2.sh'
             }
         }
     }
