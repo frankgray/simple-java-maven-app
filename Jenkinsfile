@@ -33,7 +33,7 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh' 
                 */
                 
-                sh 'zip -q -r target.zip ../simple-java-maven-app'
+                sh './deliver.sh	'
             }
         }
     }
